@@ -1,0 +1,45 @@
+.container {
+  width: clamp(327px, 85vw, 600px);
+  background-color: var(--white);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  border-radius: 16px;
+}
+
+.top {
+  display: flex;
+  gap: 24px;
+}
+
+.title {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 24px;
+    gap: 24px;
+    border-radius: 8px;
+  }
+
+  .icon {
+    width: 24px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .bottom {
+    gap: 20px;
+  }
+}

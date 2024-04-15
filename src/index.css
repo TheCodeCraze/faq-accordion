@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-pink: hsl(275, 100%, 97%);
+  --grayish-purple: hsl(292, 16%, 49%);
+  --dark-purple: hsl(292, 42%, 14%);
+  --pink: hsl(281, 83%, 54%);
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  width: 100%;
+  background: var(--light-pink) url(background-pattern-desktop.svg) top left
+    no-repeat;
+  display: flex;
+  justify-content: center;
+  padding: 168px 0;
+}
+
+@media screen and (max-width: 376px) {
+  body {
+    background: var(--light-pink) url(background-pattern-mobile.svg) top left
+      no-repeat;
+      padding: 140px 0;
+  }
+}
