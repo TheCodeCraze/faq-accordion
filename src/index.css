@@ -17,7 +17,7 @@
 body {
   font-family: "Work Sans", sans-serif;
   width: 100%;
-  background: var(--light-pink) url("background-pattern-desktop.svg") top left
+  background: var(--light-pink) url("/background-pattern-desktop.svg") top left
     no-repeat;
   display: flex;
   justify-content: center;
@@ -26,7 +26,7 @@ body {
 
 @media screen and (max-width: 376px) {
   body {
-    background: var(--light-pink) url("background-pattern-mobile.svg") top left
+    background: var(--light-pink) url("/background-pattern-mobile.svg") top left
       no-repeat;
     padding: 140px 0;
   }
